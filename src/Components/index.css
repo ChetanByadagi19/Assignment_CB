@@ -1,0 +1,29 @@
+.container {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  td,
+  th {
+    padding: 20px;
+  }
+  .input-style {
+    border: none;
+    height: 100%;
+  }
+  .input-style:hover {
+    cursor: pointer;
+  }
+  input[type="text"]:focus {
+    border: none;
+    outline: none;
+  }
+  
